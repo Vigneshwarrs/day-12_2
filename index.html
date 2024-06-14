@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h5 class="font-weight-bold">Name <span style="color: red;">*</span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <input style="width: 100%;" type="text" name="fname" id="fname">
+            </div>
+            <div class="col-3">
+                <input style="width: 100%;" type="text" name="lname" id="lname">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <p>First</p>
+            </div>
+            <div class="col-3">
+                <p>Last</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="font-weight-bold">Email <span style="color: red;">*</span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <input style="width: 100%;" type="email" name="mail" id="mail">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="font-weight-bold">Yours Experience</h5>
+            </div>
+        </div>
+        <div class="row"><div class="col">
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+            <i class="fa-solid fa-star text-warning"></i>
+        </div></div>
+        <div class="row">
+            <div class="col">
+                  <p>Overall, how would youn rate your experience with us?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="font-weight-bold">How satisfied are you with <span style="color: red;">*</span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table table-borderless table-striped">
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td>Very UnSatisfied</td>
+                            <td>Unsatisfied</td>
+                            <td>Neutral</td>
+                            <td>Satisfied</td>
+                            <td>Very Satisfied</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Purchase</td>
+                            <td><input type="radio" name="purchase" id="vupur"></td>
+                            <td><input type="radio" name="purchase" id="upur"></td>
+                            <td><input type="radio" name="purchase" id="npur"></td>
+                            <td><input type="radio" name="purchase" id="spur"></td>
+                            <td><input type="radio" name="purchase" id="vspur"></td>
+                        </tr>
+                        <tr>
+                            <td>Service</td>
+                            <td><input type="radio" name="service" id="vupur"></td>
+                            <td><input type="radio" name="service" id="upur"></td>
+                            <td><input type="radio" name="service" id="npur"></td>
+                            <td><input type="radio" name="service" id="spur"></td>
+                            <td><input type="radio" name="service" id="vspur"></td>
+                        </tr>
+                        <tr>
+                            <td>Company Overall</td>
+                            <td><input type="radio" name="overall" id="vupur"></td>
+                            <td><input type="radio" name="overall" id="upur"></td>
+                            <td><input type="radio" name="overall" id="npur"></td>
+                            <td><input type="radio" name="overall" id="spur"></td>
+                            <td><input type="radio" name="overallx" id="vspur"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="font-weight-bold">How likely are you to <span style="color: red;">*</span></h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <table class="table table-borderless table-striped">
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <td>Very Unlikely</td>
+                            <td>Unlikely</td>
+                            <td>Neutral</td>
+                            <td>Likely</td>
+                            <td>Very Likely</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Buy from us again</td>
+                            <td><input type="radio" name="purchase" id="vupur"></td>
+                            <td><input type="radio" name="purchase" id="upur"></td>
+                            <td><input type="radio" name="purchase" id="npur"></td>
+                            <td><input type="radio" name="purchase" id="spur"></td>
+                            <td><input type="radio" name="purchase" id="vspur"></td>
+                        </tr>
+                        <tr>
+                            <td>Recommend our products to others</td>
+                            <td><input type="radio" name="service" id="vupur"></td>
+                            <td><input type="radio" name="service" id="upur"></td>
+                            <td><input type="radio" name="service" id="npur"></td>
+                            <td><input type="radio" name="service" id="spur"></td>
+                            <td><input type="radio" name="service" id="vspur"></td>
+                        </tr>
+                        <tr>
+                            <td>Recommend our company to others</td>
+                            <td><input type="radio" name="overall" id="vupur"></td>
+                            <td><input type="radio" name="overall" id="upur"></td>
+                            <td><input type="radio" name="overall" id="npur"></td>
+                            <td><input type="radio" name="overall" id="spur"></td>
+                            <td><input type="radio" name="overallx" id="vspur"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h5 class="font-weight-bold">Additional Comments or suggestion</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <textarea name="comments" id="comment" cols="150" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col">
+                <button class="btn btn-secondary">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
